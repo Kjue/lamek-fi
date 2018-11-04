@@ -68,6 +68,9 @@ typings/
 # nuxt.js build output
 .nuxt
 
+# Firebase caches
+.firebase
+
 # Nuxt generate
 dist
 
