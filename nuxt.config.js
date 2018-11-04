@@ -41,7 +41,20 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [],
+  modules: [
+    [
+      'nuxt-i18n',
+      {
+        // Options
+        vueI18nLoader: true,
+        locales: ['en', 'fi'],
+        defaultLocale: 'fi',
+        vueI18n: {
+          fallbackLocale: 'fi'
+        }
+      }
+    ]
+  ],
 
   /*
   ** Build configuration
