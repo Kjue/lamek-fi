@@ -18,6 +18,11 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
+          'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i|Bree+Serif'
+      },
+      {
+        rel: 'stylesheet',
+        href:
           'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
       }
     ]

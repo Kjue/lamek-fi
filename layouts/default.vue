@@ -1,10 +1,6 @@
 <template>
   <v-app light>
-    <v-content>
-      <v-container text-xs-center>
-        <nuxt />
-      </v-container>
-    </v-content>
+    <nuxt />
   </v-app>
 </template>
 
