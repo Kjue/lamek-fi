@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Lamek Oy - Mikael Lavi',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -52,8 +52,12 @@ module.exports = {
       {
         // Options
         vueI18nLoader: true,
-        locales: ['en', 'fi'],
+        locales: [
+          { code: 'en', name: 'English', flag: '/en.png' },
+          { code: 'fi', name: 'Suomi', flag: '/fi.png' }
+        ],
         defaultLocale: 'fi',
+        strategy: 'prefix_except_default',
         vueI18n: {
           fallbackLocale: 'fi'
         }
