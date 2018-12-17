@@ -28,5 +28,6 @@
   "vetur.validation.style": true,
   // Validate vue-html in <template> using eslint-plugin-vue
   "vetur.validation.template": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
   "git.ignoreLimitWarning": true
 }

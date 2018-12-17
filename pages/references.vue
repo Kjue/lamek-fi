@@ -20,12 +20,12 @@
   "en": {
     "title3": "References",
     "description": "Publicly viewable work packages and achievements",
-    "lamek": "Lamek Oy -sivusto",
-    "ref_1": "This webpage is a sample of my skills. It has been made by combining powerful tools and frameworks to achieve an interactive experience. The libraries used for this are:",
-    "ref_11": "Nuxt.js platform for server-side support and translations",
-    "ref_12": "Vue.js view only layer",
-    "ref_13": "Vuetify styling layer",
-    "ref_14": "Firebase cloud environment",
+    "ref_1": "Lamek Oy pages",
+    "ref_11": "This webpage is a sample of my skills. It has been made by combining powerful tools and frameworks to achieve an interactive experience. The libraries used for this are:",
+    "ref_12": "Nuxt.js platform for server-side support and translations",
+    "ref_13": "Vue.js view only layer",
+    "ref_14": "Vuetify styling layer",
+    "ref_15": "Firebase cloud environment",
     "ref_2": "Github profile",
     "ref_21": "My profile in Github reflects my professional interests in different projects that I have actively followed. I have especially taken part in discussion on the Babylon.js project that we are utilizing in our product. I have met the founders of that project personally as well. My contributions to projects have been outside of any relevant pull requests and have focused on giving input in commenting.",
     "ref_3": "RBushen",
@@ -39,7 +39,6 @@
 
 <template>
   <v-content>
-
     <section>
       <v-parallax
         src="/rust.jpg"
@@ -59,14 +58,15 @@
           align-start
           justify-center
         >
-
           <v-flex
             xs11
             md4
             text-xs-left
           >
             <!-- <h3>{{ $t('title3') }}</h3> -->
-            <h3>Lamek Oy -sivusto</h3>
+            <h3>
+              <a href="https://github.com/kjue/lamek-fi">{{ $t('ref_1') }}</a>
+            </h3>
           </v-flex>
           <v-flex
             xs11
@@ -74,14 +74,13 @@
             my-3
             text-xs-left
           >
-            <p>{{ $t('ref_1') }}</p>
+            <p>{{ $t('ref_11') }}</p>
             <ul>
-              <li>{{ $t('ref_11') }}</li>
               <li>{{ $t('ref_12') }}</li>
               <li>{{ $t('ref_13') }}</li>
               <li>{{ $t('ref_14') }}</li>
+              <li>{{ $t('ref_15') }}</li>
             </ul>
-
           </v-flex>
 
           <v-flex
@@ -90,7 +89,9 @@
             text-xs-left
           >
             <!-- <h3>{{ $t('title3') }}</h3> -->
-            <h3><a href="https://github.com/kjue">{{ $t('ref_2') }}</a></h3>
+            <h3>
+              <a href="https://github.com/kjue">{{ $t('ref_2') }}</a>
+            </h3>
           </v-flex>
           <v-flex
             xs11
@@ -107,7 +108,9 @@
             text-xs-left
           >
             <!-- <h3>{{ $t('title3') }}</h3> -->
-            <h3><a href="https://github.com/Kjue/rbushen">{{ $t('ref_3') }}</a></h3>
+            <h3>
+              <a href="https://github.com/Kjue/rbushen">{{ $t('ref_3') }}</a>
+            </h3>
           </v-flex>
           <v-flex
             xs11
@@ -134,11 +137,9 @@
             <p>{{ $t('ref_41') }}</p>
             <p>{{ $t('ref_42') }}</p>
           </v-flex>
-
         </v-layout>
       </v-container>
     </section>
-
   </v-content>
 </template>
 
