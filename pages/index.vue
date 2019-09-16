@@ -4,7 +4,7 @@
     "desc1.1": "Lamek Oy on yritys joka tekee ratkaisuja eri tarpeisiin. Yrityksen keulana on Mikael Lavi, joka on kerännyt vahvan ja yli 13 vuoden kokemuksen sovellusten ja ratkaisujen kehittämisestä AEC-alalle (architecture, engineering and construction).",
     "desc1.2": "Ota yhteyttä mikäli sinulla on ongelma ja kaipaat ajatteluapua. Tilanteen arviointi tehdään vapaamuotoisesti ja ratkaisun suunta mietitään yhdessä.",
     "download": "Näillä sivuilla olen listannut oleelliset tiedot erikoistumisestani ja referensseistäni. Niiden lisäksi voit ladata tästä printtiversion materiaalista:",
-    "quote": "Kaikki asiat ovat mahdollisia - jotkin ovat vain hankalampia kuin muut.",
+    "quote": "Kaikki on mahdollista - jotkin ovat vain hankalampia kuin muut.",
     "contacts": "Yhteystiedot"
   },
   "en": {
@@ -47,10 +47,11 @@
             <h2>Lamek Oy</h2>
             <h3>Mikael Lavi</h3>
             <v-img
-              src="/profile.png" 
+              src="/profile.png"
               contain
               class="mt-4 hidden-sm-and-down"
-              width="200" />
+              width="200"
+            />
           </v-flex>
           <v-flex
             xs11
