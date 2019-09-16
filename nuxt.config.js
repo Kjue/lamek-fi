@@ -61,6 +61,14 @@ module.exports = {
         vueI18n: {
           fallbackLocale: 'fi'
         }
+      },
+      '@nuxtjs/pwa',
+      {
+        workbox: false,
+        onesignal: false,
+        icon: {
+          iconSrc: 'static/favicon-256.png'
+        }
       }
     ]
   ],
