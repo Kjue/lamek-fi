@@ -19,7 +19,7 @@
     "@nuxtjs/pwa": "^2.6.0",
     "cross-env": "^5.2.0",
     "firebase-tools": "^6.0.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-i18n": "^5.4.4",
     "vuetify": "^1.2.4"
   },
@@ -28,13 +28,13 @@
     "event-stream": "3.3.4",
     "eslint": "^5.0.1",
     "eslint-config-prettier": "^3.1.0",
-    "eslint-loader": "^2.0.0",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-vue": "^4.0.0",
     "nodemon": "^1.11.0",
     "prettier": "1.14.3",
     "rimraf": "^2.6.2",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^7.1.0"
   }
 }
